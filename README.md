@@ -10,7 +10,7 @@ This project contains:
 
 ## 🧱 Project Structure
 
-<pre lang="markdown"> ## 🧱 Project Structure ``` project-root/ ├── server.js # HTTP server that serves /redirect and /final ├── client.js # Undici client with redirect logic ├── package.json ``` </pre>
+ ``` project-root/ ├── server.js # HTTP server that serves /redirect and /final ├── client.js # Undici client with redirect logic ├── package.json ``` 
 
 ---
 
