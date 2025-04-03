@@ -7,9 +7,7 @@ const server = http.createServer((req, res) => {
   if (req.url === '/redirect') {
     res.writeHead(302, {
       Location: '/final'
-    });
-    console.log({res});
-    
+    });    
     res.end();
   } else if (req.url === '/final') {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
