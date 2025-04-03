@@ -55,5 +55,12 @@ In a separate terminal, run:
 node client.js
 ```
 
+To see the full url with the extra slash run:
+
+```bash
+NODE_DEBUG=undici node client.js 
+
+```
+
 
 
