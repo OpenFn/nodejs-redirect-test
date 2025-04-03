@@ -1,0 +1,14 @@
+{
+  "name": "openfn-undici-test",
+  "version": "1.0.0",
+  "description": "A test project to recreate undici Client bug",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "undici": "^7.7.0"
+  }
+}
